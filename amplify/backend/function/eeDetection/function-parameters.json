@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "api": {
+      "eeadminapp": [
+        "Query",
+        "Mutation"
+      ]
+    }
+  },
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "lineUrl",
+      "environmentVariableName": "line_url"
+    }
+  ]
+}

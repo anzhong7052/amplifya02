@@ -1,0 +1,11 @@
+{
+  "httpMethod": "POST",
+  "path": "/detection",
+  "queryStringParameters": {
+    "limit": "10"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": "{\"sensor_id\":\"1234\",\"image\":\"1234\",\"detect_code\":123,\"detect_time\":\"2024-01-05T10:58:23.957Z\",\"detect_info\": [{\"x\":100, \"y\":80, \"width\":150, \"height\":100, \"rate\": 68.4},{\"x\":10, \"y\":50, \"width\":100, \"height\":50, \"rate\": 92.1}]}"
+}

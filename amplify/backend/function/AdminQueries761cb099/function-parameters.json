@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "auth": {
+      "eeadminappee8af8d2": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "group1",
+      "environmentVariableName": "GROUP1"
+    }
+  ]
+}

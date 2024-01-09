@@ -1,0 +1,44 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-eeadminapp-dev-165034-authRole",
+      "UnauthRoleArn": "arn:aws:iam::943993902880:role/amplify-eeadminapp-dev-165034-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::943993902880:role/amplify-eeadminapp-dev-165034-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-eeadminapp-dev-165034-deployment",
+      "UnauthRoleName": "amplify-eeadminapp-dev-165034-unauthRole",
+      "StackName": "amplify-eeadminapp-dev-165034",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:943993902880:stack/amplify-eeadminapp-dev-165034/73e239a0-a3c3-11ee-9c99-0e57ad095747",
+      "AmplifyAppId": "d4gl7zcj1ju8e",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-eeadminapp-dev-165034-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "eeadminappee8af8d2": {}
+      },
+      "api": {
+        "eeadminapp": {},
+        "AdminQueries": {},
+        "apiGatewayForDetection": {}
+      },
+      "function": {
+        "AdminQueries761cb099": {
+          "deploymentBucketName": "amplify-eeadminapp-dev-165034-deployment",
+          "s3Key": "amplify-builds/AdminQueries761cb099-5874614c3944564f3369-build.zip",
+          "group1": "Managers"
+        },
+        "eeDetection": {
+          "lineUrl": "https://test.line.com/tmp",
+          "deploymentBucketName": "amplify-eeadminapp-dev-165034-deployment",
+          "s3Key": "amplify-builds/eeDetection-4932744e6d457a68764b-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d4gl7zcj1ju8e",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

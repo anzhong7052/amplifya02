@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/detection": {
+      "name": "/detection",
+      "lambdaFunction": "eeDetection",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/reaction": {
+      "name": "/reaction",
+      "lambdaFunction": "eeDetection",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
